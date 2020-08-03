@@ -1,5 +1,3 @@
-const fs = require('fs')
+const createStairs = require('./stairs.js')
 
-fs.writeFileSync("kp.txt", "yo KP")
-
-fs.appendFileSync("kp.txt", ". What's up?")
+console.log(createStairs(4))
