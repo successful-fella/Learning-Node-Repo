@@ -1,0 +1,22 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "KP's Personal MERN Stack Stash",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/successful-fella/Learning-MERN-Repo.git"
+  },
+  "author": "Kawalpreet Juneja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/successful-fella/Learning-MERN-Repo/issues"
+  },
+  "homepage": "https://github.com/successful-fella/Learning-MERN-Repo#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
