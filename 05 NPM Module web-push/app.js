@@ -1,21 +1,22 @@
 const webpush = require('web-push')
+const fs = require('fs')
 
-webpush.setVapidDetails(
-    'mailto:preetjuneja@zingalbox.com',
-    "public_key",
-    "private_key"
-)
+const buffer = fs.readFileSync('./cred.json')
+const credentials = JSON.parse(buffer.toString())
 
-// I have generated it on client and console logged using Notification API
+webpush.setVapidDetails(credentials.vapid_array[0], credentials.vapid_array[1], credentials.vapid_array[2])
+
 const pushSubscription = {
-    endpoint: 'endpoint_url_to_send_notification',
+    endpoint: credentials.endpoint,
     keys: {
-        auth: '...',
-        p256dh: '...'
+        auth: credentials.auth,
+        p256dh: credentials.p256dh
     }
 }
 
-// Custom payload, below is the way my serviceworker parse
-webpush.sendNotification(pushSubscription, '{"msg":"Hi KP", "url": ""}').then((resp) => {
+// As per my serviceworker configurations
+const payload = '{"msg":"Hi KP", "url": ""}'
+
+webpush.sendNotification(pushSubscription, payload).then((resp) => {
     console.log(resp)
 })
