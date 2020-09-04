@@ -1,0 +1,1 @@
+Honestly I think I will only learn if I create an actual app. Let here we go!
