@@ -12,9 +12,5 @@ Because why not?
 - [ ] Find my perfect way to use views with express
 - [x] Create a simple hello world Electron app
 - [ ] Think of an idea for desktop app using Electron (to be updated)
-<<<<<<< HEAD
 - [x] Get started connecting relational databases
 - [ ] Get started connecting NoSQL databases
-=======
-- [ ] Get started connect relational and NoSQL databases
->>>>>>> origin/master
