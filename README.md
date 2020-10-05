@@ -11,6 +11,11 @@ Because why not?
 - [ ] Create express app for register login using files, sessions and additionally cookies
 - [ ] Find my perfect way to use views with express
 - [x] Create a simple hello world Electron app
-- [ ] Think of an idea for desktop app using Electron (to be updated)
+- [x] Think of an idea for desktop app using Electron (to be updated)
+- [x] Update, create a PHP billing application in Electron JS
 - [x] Get started connecting relational databases
 - [ ] Get started connecting NoSQL databases
+- [x] Try out frontend frameworks - Vue
+- [x] Try out frontend frameworks - React
+- [ ] Try out frontend frameworks - Any one other
+- [ ] Learn any one of above frontend framework properly and use it with PHP
