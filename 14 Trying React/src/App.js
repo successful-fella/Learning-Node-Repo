@@ -4,11 +4,13 @@ import './App.css';
 import { Hello } from './components/Hello.jsx'
 import { Counter } from './components/Counter.jsx'
 import { LoginStatus } from './components/LoginStatus.jsx'
+import { Languages } from './components/Languages.jsx'
 
 function App() {
 	return (
 		<div className="container">
 			<LoginStatus />
+			<Languages />
 			<div className="App">
 				<header className="App-header">
 					<Hello name="Kawalpreet" />
