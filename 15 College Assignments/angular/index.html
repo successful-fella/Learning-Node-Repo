@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Directive Showcase</title>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
+	</head>
+
+	<body>
+		<div ng-app="nameApp" ng-controller="nameController">
+			<input type="text" placeholder="Enter First Name" ng-model="fn"><br>
+			<input type="text" placeholder="Enter Last Name" ng-model="ln"><br>
+			Full name - {{ fn + " " + ln }}
+		</div>
+
+		<script>
+			const app = angular.module('nameApp', [])
+			app.controller('nameController', ($scope) => {
+				$scope.fn = "";
+				$scope.ln = "";
+			})
+		</script>
+	</body>
+
+</html>

@@ -18,6 +18,7 @@
   "homepage": "https://github.com/successful-fella/Learning-MERN-Repo#readme",
   "dependencies": {
     "chalk": "^4.1.0",
+    "express": "^4.17.1",
     "request": "^2.88.2",
     "sqlite3": "^5.0.0",
     "web-push": "^3.4.4"
